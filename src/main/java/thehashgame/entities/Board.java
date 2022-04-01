@@ -23,7 +23,7 @@ import static thehashgame.config.Config.WIN_POSITIONS;
  */
 public class Board {
 
-    final Mark turn;
+    private final Mark turn;
     private final Map<Integer, Mark> marks;
 
     public Board(final Map<Integer, Mark> marks, final Mark turn) {
@@ -36,18 +36,18 @@ public class Board {
         turn = firstTurn;
     }
 
-    HashMap<Integer, Mark> getMarks() {
+    public HashMap<Integer, Mark> getMarks() {
         return (HashMap<Integer, Mark>) marks
                 .entrySet()
                 .stream()
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 
-    boolean isCircleWinner() {
+    public boolean isCircleWinner() {
         return isWinner(Mark.CIRCLE);
     }
 
-    boolean isSquareWinner() {
+    public boolean isSquareWinner() {
         return isWinner(Mark.SQUARE);
     }
 
