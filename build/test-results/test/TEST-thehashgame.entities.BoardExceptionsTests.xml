@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="thehashgame.entities.BoardExceptionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-04-01T15:29:47" hostname="AGM-595364.local" time="0.026">
+  <properties/>
+  <testcase name="whenPositionIsGreaterThan8_shouldThrowInvalidPositionException()" classname="thehashgame.entities.BoardExceptionsTests" time="0.009"/>
+  <testcase name="whenCircleWinsAndSquarePlays_gameShouldBeOver()" classname="thehashgame.entities.BoardExceptionsTests" time="0.003"/>
+  <testcase name="whenSquarePlaysAtTheSamePositionOfCircle_shouldThrowPositionAlreadyMarkedException()" classname="thehashgame.entities.BoardExceptionsTests" time="0.001"/>
+  <testcase name="whenPositionIsLessThanZero_shouldThrowInvalidPositionException()" classname="thehashgame.entities.BoardExceptionsTests" time="0.001"/>
+  <testcase name="whenSquarePlaysTwiceInARow_shouldThrowNotTurnOfCirclesException()" classname="thehashgame.entities.BoardExceptionsTests" time="0.001"/>
+  <testcase name="whenSquareWinsAndSquarePlays_gameShouldBeOver()" classname="thehashgame.entities.BoardExceptionsTests" time="0.001"/>
+  <testcase name="whenCirclePlaysAtTheSamePositionOfSquare_shouldThrowPositionAlreadyMarkedException()" classname="thehashgame.entities.BoardExceptionsTests" time="0.002"/>
+  <testcase name="whenCirclePlaysTwiceInARow_shouldThrowNotTurnOfCirclesException()" classname="thehashgame.entities.BoardExceptionsTests" time="0.001"/>
+  <testcase name="whenMarkIsNull_shouldThrowInvalidMarkException()" classname="thehashgame.entities.BoardExceptionsTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

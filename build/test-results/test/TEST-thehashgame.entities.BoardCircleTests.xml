@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="thehashgame.entities.BoardCircleTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-04-01T15:29:47" hostname="AGM-595364.local" time="0.023">
+  <properties/>
+  <testcase name="whenCircleMarksFirstHorizontal_circlesShouldWin()" classname="thehashgame.entities.BoardCircleTests" time="0.001"/>
+  <testcase name="whenCircleMarksThirdHorizontal_circlesShouldWin()" classname="thehashgame.entities.BoardCircleTests" time="0.001"/>
+  <testcase name="whenCircleMarksFirstVertical_circlesShouldWin()" classname="thehashgame.entities.BoardCircleTests" time="0.003"/>
+  <testcase name="whenCircleMarksThirdVertical_circlesShouldWin()" classname="thehashgame.entities.BoardCircleTests" time="0.002"/>
+  <testcase name="whenCircleMarksFirstDiagonal_circlesShouldWin()" classname="thehashgame.entities.BoardCircleTests" time="0.001"/>
+  <testcase name="whenCircleMarksSecondVertical_circlesShouldWin()" classname="thehashgame.entities.BoardCircleTests" time="0.003"/>
+  <testcase name="whenCircleMarksSecondDiagonal_circlesShouldWin()" classname="thehashgame.entities.BoardCircleTests" time="0.001"/>
+  <testcase name="whenCircleMarksSecondHorizontal_circlesShouldWin()" classname="thehashgame.entities.BoardCircleTests" time="0.004"/>
+  <system-out><![CDATA[{0=CIRCLE, 1=CIRCLE, 2=CIRCLE, 3=SQUARE, 4=SQUARE}
+{0=SQUARE, 1=SQUARE, 6=CIRCLE, 7=CIRCLE, 8=CIRCLE}
+{0=CIRCLE, 1=SQUARE, 2=SQUARE, 3=CIRCLE, 6=CIRCLE}
+{1=SQUARE, 2=CIRCLE, 4=SQUARE, 5=CIRCLE, 8=CIRCLE}
+{0=CIRCLE, 1=SQUARE, 2=SQUARE, 4=CIRCLE, 8=CIRCLE}
+{1=CIRCLE, 2=SQUARE, 4=CIRCLE, 5=SQUARE, 7=CIRCLE}
+{0=SQUARE, 1=SQUARE, 2=CIRCLE, 4=CIRCLE, 6=CIRCLE}
+{0=SQUARE, 1=SQUARE, 3=CIRCLE, 4=CIRCLE, 5=CIRCLE}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
